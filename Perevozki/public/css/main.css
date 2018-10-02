@@ -1,0 +1,248 @@
+/*.panel-body img{*/
+    /*width: 100%;*/
+    /*height: 300px;*/
+/*}*/
+.head{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+}
+.navbar{
+    background-color: #FFFFE0;
+    font-size: 20px;
+}
+body{
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+}
+.navbar-default .navbar-nav > li > a{
+    color: black;
+    margin-left: 50px;
+}
+.dropdown-menu{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.carspic{
+     position: relative;
+
+ }
+.phone{
+    position: absolute;
+   bottom: 140px;
+    left: 80%;
+}
+.phone p{
+   font-size: 35px;
+    line-height: 1;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #008080;
+}
+.call{
+    width: 15%;
+}
+/*Анимация машины*/
+path {
+    stroke-dasharray: 38000;
+    stroke-dashoffset: 38000;
+    animation: dash 10s linear forwards;
+}
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+/*конец анимации машины*/
+
+svg{
+    float: left;
+    padding-right: 20px;
+}
+.about {
+    text-align: justify;
+}
+
+/*Анимация трубки*/
+.call, .call2 {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    -o-animation-timing-function: ease;
+    animation-timing-function: ease;
+}
+.call:hover {
+     -webkit-animation-name: Tada;
+     -moz-animation-name: Tada;
+     -o-animation-name: Tada;
+     animation-name: Tada;
+ }
+.call2:hover {
+    -webkit-animation-name: Tada;
+    -moz-animation-name: Tada;
+    -o-animation-name: Tada;
+    animation-name: Tada;
+}
+@-webkit-keyframes Tada {
+    0% {
+        -webkit-transform:scale(1)
+    }
+    10%, 20% {
+        -webkit-transform:scale(0.9) rotate(-3deg)
+    }
+    30%, 50%, 70%, 90% {
+        -webkit-transform:scale(1.1) rotate(3deg)
+    }
+    40%, 60%, 80% {
+        -webkit-transform:scale(1.1) rotate(-3deg)
+    }
+    100% {
+        -webkit-transform:scale(1) rotate(0)
+    }
+}
+@-moz-keyframes Tada {
+    0% {
+        -moz-transform:scale(1)
+    }
+    10%,20% {
+        -moz-transform:scale(0.9) rotate(-3deg)
+    }
+    30%, 50%, 70%, 90% {
+        -moz-transform:scale(1.1) rotate(3deg)
+    }
+    40%, 60%, 80% {
+        -moz-transform:scale(1.1) rotate(-3deg)
+    }
+    100% {
+        -moz-transform:scale(1) rotate(0)
+    }
+}
+@-o-keyframes Tada {
+    0% {
+        -o-transform:scale(1)
+    }
+    10%,20% {
+        -o-transform:scale(0.9) rotate(-3deg)
+    }
+    30%, 50%, 70%, 90% {
+        -o-transform:scale(1.1) rotate(3deg)
+    }
+    40%, 60%, 80% {
+        -o-transform:scale(1.1) rotate(-3deg)
+    }
+    100% {
+        -o-transform:scale(1) rotate(0)
+    }
+}
+@keyframes Tada {
+    0% {
+        transform:scale(1)
+    }
+    10%, 20% {
+        transform:scale(0.9) rotate(-3deg)
+    }
+    30%, 50%, 70%, 90% {
+        transform:scale(1.1) rotate(3deg)
+    }
+    40%, 60%, 80% {
+        transform:scale(1.1) rotate(-3deg)
+    }
+    100% {
+        transform:scale(1) rotate(0)
+    }
+}
+/*конец анимации трубки*/
+
+.indexgr{
+    text-align: center;
+    color: #FF4500;
+    margin-bottom: 30px;
+}
+.gruz img{
+    width: 40%;
+    float: left;
+    margin-top: 30px;
+}
+.aboutgazel p{
+line-height: 1;
+}
+.aboutgazel{
+    margin-left: 550px;
+    border-left: 1px solid #D3D3D3;;
+    padding-left: 20px;
+}
+.gruz{
+    border: 1px solid #D3D3D3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+.work{
+    border: 1px solid #D3D3D3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+padding: 50px;
+    border-radius: 50%;
+    width: 170px;
+}
+.strelka{
+    padding-top: 70px;
+}
+.work:hover{
+    box-shadow: 0 0 15px rgba(0,0,0,0.9);
+}
+.zakaz{
+    margin-top: 4px;
+    color: black;
+    font-size: 20px;
+}
+footer{
+    background-color: #FFFFE0;
+    position: relative;
+}
+
+.phone_footer p{
+    font-size: 35px;
+    line-height: 1;
+}
+.call2{
+    width: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table{
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+td:first-child{
+    text-align: left;
+    padding-left: 5px;
+    font-weight: bold;
+}
+td{
+    padding: 10px;
+}
+.modal-header h3{
+    text-align: center;
+}
